@@ -70,7 +70,14 @@ body{
     background: #232222;
     border-radius: 15px;
     color: #b9b9b9;
+    transition: 0.7s;
 }
+
+.katooni-card:hover{
+    border: orange 1px solid;
+    animation: ana 1s ease-in-out ;
+}
+
 .card-header img{
     width: 100%;
     height: auto;
@@ -89,6 +96,24 @@ body{
     background: orange;
     color: black;
     font-size: 30px;
+}
+
+@keyframes ana{
+0%{
+        transform: translateY(0);
+ }
+ 25% {
+    transform: translateY(-22px);
+ }
+ 50%{
+    transform: translateY(0px);
+ }
+ 75%{
+    transform: translateY(-11px);
+ }
+ 100%{
+    transform: translateY(0px);
+ }
 }
 
 /* responsive */
