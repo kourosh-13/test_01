@@ -75,7 +75,7 @@ body{
 
 .katooni-card:hover{
     border: orange 1px solid;
-    animation: ana 1s ease-in-out ;
+    animation: ana 0.9s ease-in-out ;
 }
 
 .card-header img{
